@@ -48,15 +48,19 @@ class Objetivos:
         print("-------------------------------------------------------")
         print("")
         print("-------------------------------------------------------")
-        print(self.colores.red(f"Tu límite de calorías diario es de: {self.calorias}"))
-        print(self.colores.cyan(f"Tu límite de azúcar diario es de: {self.azucar}"))
-        print(self.colores.green(f"Tu límite de grasa diario es de: {self.grasa}"))
         print(
-            self.colores.yellow(
-                f"Tu límite de colesterol diario es de: {self.colesterol}"
+            self.colores.red(
+                f"Tu límite de calorías diario es de: {self.calorias} kcal"
             )
         )
-        print(self.colores.purple(f"Tu límite de sodio diario es de: {self.sodio}"))
+        print(self.colores.cyan(f"Tu límite de azúcar diario es de: {self.azucar} g"))
+        print(self.colores.green(f"Tu límite de grasa diario es de: {self.grasa} g"))
+        print(
+            self.colores.yellow(
+                f"Tu límite de colesterol diario es de: {self.colesterol} g"
+            )
+        )
+        print(self.colores.purple(f"Tu límite de sodio diario es de: {self.sodio} g"))
         print("-------------------------------------------------------")
         print("")
 
